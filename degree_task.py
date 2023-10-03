@@ -18,3 +18,5 @@ def degree(t: float, a: float, r: float, v: float = 0):
     result = 360 * (abs(round(turn) - turn))
 
     return round(result, 2)
+
+print(degree(100, 200, 33, 15))
