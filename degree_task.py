@@ -8,8 +8,8 @@ def degree(time: float, acc: float, rad: float, vel: float = 0):
         time (float): time
         acc (float): acceleration
         rad (float): radius
-        vel (float, optional): velocity. Defaults to 0.
-    Return:
+        vel (float, defoult): velocity. Defaults to 0.
+    Returns:
         result(float): deflection angle. round by 2.
     """
     lenght = 2 * 3.14 * rad
