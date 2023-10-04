@@ -5,7 +5,7 @@ import pytest
 from degree_task import degree
 
 test_data = (
-    ((5, 2, 15), 95.54),
+    ((10, 3, 5, 1), 34.39),
     ((15, 6, 2), 267.13),
     ((100, 200, 33, 15), 202.06),
 )

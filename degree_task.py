@@ -19,6 +19,6 @@ def degree(time: float, acc: float, rad: float, vel: float = 0):
     lenght = 2 * round(pi, 2) * rad
     path = vel * time + (acc * time ** 2) / 2
     turn = path / lenght
-    angle = round_deg * (abs(floor(turn) - turn)) 
+    angle = round_deg * (abs(floor(turn) - turn))
 
     return round(angle, 2)
