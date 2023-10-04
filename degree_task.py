@@ -19,4 +19,5 @@ def degree(time: float, acc: float, rad: float, vel: float = 0):
 
     return round(result, 2)
 
+
 print(degree(100, 200, 33, 15))
