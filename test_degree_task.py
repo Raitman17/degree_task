@@ -1,8 +1,8 @@
 """Test module."""
 
 import pytest
-from degree_task import degree
 
+from degree_task import degree
 
 test_data = (
     ((10, 3, 5, 1), 34.39),

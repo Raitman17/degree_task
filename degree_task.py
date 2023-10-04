@@ -3,7 +3,7 @@
 from math import pi
 
 
-def degree(time: float, acc: float, rad: float, vel: float = 0.0):
+def degree(time: float, acc: float, rad: float, vel: float = 0):
     """Count deflection angle.
 
     Args:
