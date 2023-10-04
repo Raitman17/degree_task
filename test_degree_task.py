@@ -1,5 +1,6 @@
-import pytest
+"""Test module."""
 
+import pytest
 from degree_task import degree
 
 
@@ -9,6 +10,13 @@ test_data = (
     ((100, 200, 33, 15), 157.94),
 )
 
+
 @pytest.mark.parametrize('source, expected', test_data)
 def test_degree(source: tuple[float], expected: float):
+    """Test function.
+
+    Args:
+        source (tuple[float]): data for test.
+        expected (float): expected values.
+    """
     assert degree(*source) == expected
