@@ -16,7 +16,7 @@ def degree(time: float, acc: float, rad: float, vel: float = 0.0):
         angle(float): deflection angle. round by 2.
     """
     round_deg = 360
-    lenght = 2 * pi * rad
+    lenght = 2 * round(pi, 2) * rad
     path = vel * time + (acc * time ** 2) / 2
     turn = path / lenght
     angle = round_deg * (abs(round(turn) - turn))
