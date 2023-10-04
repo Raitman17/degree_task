@@ -1,6 +1,6 @@
 """Count module."""
 
-from math import pi
+from math import pi, floor
 
 
 def degree(time: float, acc: float, rad: float, vel: float = 0):
@@ -19,6 +19,6 @@ def degree(time: float, acc: float, rad: float, vel: float = 0):
     lenght = 2 * round(pi, 2) * rad
     path = vel * time + (acc * time ** 2) / 2
     turn = path / lenght
-    angle = round_deg * (abs(round(turn) - turn))
+    angle = round_deg * (abs(floor(turn) - turn))
 
     return round(angle, 2)
