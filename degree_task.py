@@ -1,3 +1,4 @@
+"""Count module."""
 
 from math import floor, pi
 
