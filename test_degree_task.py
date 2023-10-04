@@ -20,4 +20,3 @@ def test_degree(source: tuple[float], expected: float):
         expected (float): expected values.
     """
     assert degree(*source) == expected
-    
