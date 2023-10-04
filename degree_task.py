@@ -1,6 +1,7 @@
 """Count module."""
 
-from math import pi, floor
+from math import pi
+from math import floor
 
 
 def degree(time: float, acc: float, rad: float, vel: float = 0):
