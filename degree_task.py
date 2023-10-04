@@ -1,6 +1,7 @@
 """Count module."""
 
 from math import pi
+
 from math import floor
 
 
