@@ -1,8 +1,8 @@
 """Count module."""
 
 
-def degree(time: float, acc: float, rad: float, vel: float = 0):
-    """Count deflection angle.
+def degree(time: float, acc: float, rad: float, vel: float = 0.00):
+    """Count deflection angle, returns deflection angle. round by 2.
 
     Args:
         time (float): time
